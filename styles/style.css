@@ -178,7 +178,7 @@
 /* my article section end */
 
 /* call now section start */
-.contact-section {
+.call-now-section {
     margin: 0 230px 130px 230px;
 }
 
@@ -192,7 +192,7 @@
     box-sizing: border-box;
 }
 
-.contact-section h2{
+.call-now-section h2{
     color: white;
     font-weight: 700;
     font-size: 40px;
@@ -200,3 +200,76 @@
     padding-bottom: 20px;
 }
 /* call now section end */
+
+/* contact section start */
+.footer {
+    background-color: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-section {
+
+    width: 50%;
+}
+
+.contact-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-details {
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 15px 0 25px 0;
+}
+
+.email-phone {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.email-phone:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.email {
+    padding: 15px 0 30px 0;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+/* contact section end */
+.subscribe-heading {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+.subscribe-form input[type="email"] {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    display: block;
+    margin: 31px 0 15px 0;
+    font-size: 18px;
+}
+
+.subscribe-form input[type="submit"] {
+    color: white;
+    background-color: #005FAC;
+}
+/* subscribe section start */
