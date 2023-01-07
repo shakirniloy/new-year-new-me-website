@@ -74,3 +74,33 @@
     margin-right: 10px;
 }
 /* my failure section end */
+
+/* my plans section start */
+.my-plans {
+    text-align: center;
+}
+
+.plan-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 130px 230px;
+}
+
+.plan-item-heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-item-details {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* my plans section end */
