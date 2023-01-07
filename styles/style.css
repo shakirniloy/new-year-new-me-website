@@ -42,6 +42,7 @@
     border-radius: 5px;
     border: none;
 }
+
 /* header section end */
 
 /* my failure section start */
@@ -73,6 +74,7 @@
     color: #16D887;
     margin-right: 10px;
 }
+
 /* my failure section end */
 
 /* my plans section start */
@@ -103,6 +105,7 @@
     font-size: 25px;
     color: #737272;
 }
+
 /* my plans section end */
 
 /* my article section start */
@@ -157,11 +160,13 @@
     color: #444343;
 }
 
-.article-one, .article-two {
+.article-one,
+.article-two {
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
 }
 
-.article-one:hover, .article-two:hover {
+.article-one:hover,
+.article-two:hover {
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -171,10 +176,11 @@
     justify-content: flex-end;
 }
 
-.article-btn > button {
+.article-btn>button {
     color: white;
     background-color: #005FAC;
 }
+
 /* my article section end */
 
 /* call now section start */
@@ -184,7 +190,7 @@
 
 .call-now {
     width: 100%;
-    background: linear-gradient(to right, rgba(0,0,255,0.6), transparent), url('../images/watch.png');
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.6), transparent), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -192,13 +198,14 @@
     box-sizing: border-box;
 }
 
-.call-now-section h2{
+.call-now-section h2 {
     color: white;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     padding-bottom: 20px;
 }
+
 /* call now section end */
 
 /* contact section start */
@@ -271,4 +278,5 @@
     color: white;
     background-color: #005FAC;
 }
+
 /* subscribe section start */
