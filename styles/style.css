@@ -104,3 +104,99 @@
     color: #737272;
 }
 /* my plans section end */
+
+/* my article section start */
+.article-container {
+    padding: 50px 230px 50px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.my-article-heading {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.article-one {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.article-one .img-container img {
+    width: 100%;
+}
+
+.article-two {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.article-two .img-container img {
+    width: 100%;
+}
+
+.article-details h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 10px 40px;
+    color: #151414;
+    text-align: justify;
+}
+
+.article-details p {
+    padding: 20px 40px;
+    text-align: justify;
+    line-height: 26px;
+    color: #444343;
+}
+
+.article-one, .article-two {
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.article-one:hover, .article-two:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.article-btn {
+    padding: 0 230px 130px 230px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article-btn > button {
+    color: white;
+    background-color: #005FAC;
+}
+/* my article section end */
+
+/* call now section start */
+.contact-section {
+    margin: 0 230px 130px 230px;
+}
+
+.call-now {
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,255,0.6), transparent), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 60px 65px;
+    box-sizing: border-box;
+}
+
+.contact-section h2{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 20px;
+}
+/* call now section end */
